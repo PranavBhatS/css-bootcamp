@@ -1,0 +1,23 @@
+{
+  "name": "css-bootcamp",
+  "version": "1.0.0",
+  "description": "scss",
+  "main": "index.js",
+  "scripts": {
+   "natours:compile:sass":"node-sass natours/sass/main.scss  natours/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranavBhatS/css-bootcamp.git"
+  },
+  "author": "pranav bhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranavBhatS/css-bootcamp/issues"
+  },
+  "homepage": "https://github.com/PranavBhatS/css-bootcamp#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
